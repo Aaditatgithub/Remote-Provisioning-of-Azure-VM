@@ -17,10 +17,10 @@ dttime = f'{datetime.now():%d-%H-%M-%S%z}'
 # Step 1: Credential Management
 #----------------------------------------------
 
-tenantid = '719cd6f9-9df1-435e-862c-118cb4cc580e'
-subscription_id = 'cc84a994-be10-4893-baf9-a1f69c5ac298'
-clientid = '37bacb77-2de1-4c56-a96b-08380a3daab5'
-secretkey = 'g8R8Q~iVbSibuKJgPzgFjK9pIyYXG0GlplTUhaDS'
+tenantid ''
+subscription_id = ''
+clientid = ''
+secretkey = ''
 
 
 credential = ClientSecretCredential(
