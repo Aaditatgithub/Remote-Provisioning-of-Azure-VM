@@ -23,14 +23,14 @@ This script demonstrates how to provision a virtual machine (VM) in Azure using 
    pip install azure-identity azure-mgmt-resource azure-mgmt-compute azure-mgmt-network
 
 2. Set Up Environment Variables
-   Make sure to replace the placeholder values with your actual Azure AD tenant ID, client ID, secret key, and subscription ID
+   - Make sure to replace the placeholder values with your actual Azure AD tenant ID, client ID, secret key, and subscription ID
    ```python
    tenantid = '<your-tenant-id>'
    subscription_id = '<your-subscription-id>'
    clientid = '<your-client-id>'
    secretkey = '<your-secret-key>'
 
-3. Run the Script
+4. Run the Script
    ```sh
    python vm-provision.py 
    
